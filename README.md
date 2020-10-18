@@ -1,7 +1,7 @@
 # NYC-Taxi-Prediction-Intervals
 This is the code for the paper 'Prediction Intervals of Machine Learning Models for Taxi Trip Length', accepted to be published in the conference proceedings of AMMCS 2019.
 
-To run:
+To run the random forest model with a target capture percentage of 95%:
 ```
 python main.py --model rf --data nyc_taxi.csv --cp_target 0.95
 ```
